@@ -106,6 +106,7 @@ plugins:
         - AI & ML
         - Web Development
         - Object-Spatial Programming
+        - Developers
       authors: true
       authors_file: "{blog}/.authors.yml"
       pagination: true
