@@ -97,9 +97,8 @@ plugins:
         - Jac Programming
         - Tutorials
         - Fixing the Broken
-        - AI & ML
+        - AI
         - Web Development
-        - Object-Spatial Programming
         - Developers
       authors: true
       authors_file: "{blog}/.authors.yml"

@@ -5,8 +5,7 @@ authors:
   - malitha
 categories:
   - Jac Programming
-  - AI & ML
-  - Object-Spatial Programming
+  - AI
 slug: agentic-object-spatial-programming
 ---
 
