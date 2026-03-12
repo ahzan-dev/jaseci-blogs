@@ -32,7 +32,7 @@ We'll review all submissions and happily accept anything that's insightful or ot
    slug: my-awesome-post
    ---
    ```
-4. Write your post in markdown (see [Adding Jac Code Blocks](#adding-jac-code-blocks) for interactive code examples)
+4. Write your post in markdown (see [Adding Jac Code Blocks](#adding-jac-code-blocks) for interactive code examples). We also love [Mermaid](https://mermaid.js.org/) diagrams -- use ` ```mermaid ` code blocks to add flowcharts, sequence diagrams, and more. For custom graphics, we prefer SVGs since they scale nicely and keep the site looking crisp
 5. Open a pull request
 
 ### Adding Yourself as an Author
