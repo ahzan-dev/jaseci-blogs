@@ -2,6 +2,54 @@
 
 A clean MkDocs blog setup with Jac syntax highlighting and interactive, runnable Jac code blocks.
 
+## Contributing
+
+We welcome contributions from anyone in the community! If you'd like to write a blog post, we'd love to hear from you. Topics can include anything relevant to:
+
+- **Jac & Jaseci** -- tutorials, tips, deep dives, project showcases
+- **AI & Machine Learning** -- techniques, tools, research, opinions
+- **Cool Open Source Tools** -- discoveries, comparisons, how-tos
+- **Open Source News** -- notable releases, ecosystem updates, community happenings
+- **Anything Nerdy** -- if it's insightful, creative, or just plain fun for a technical audience, we're interested
+
+We'll review all submissions and happily accept anything that's insightful or otherwise enjoyable to the community. Don't be shy -- submit a PR!
+
+### How to Submit a Post
+
+1. Fork the repo and create a new branch
+2. Add your post as a markdown file in `docs/blog/posts/`:
+   ```bash
+   touch docs/blog/posts/my-awesome-post.md
+   ```
+3. Add frontmatter to the top of your post:
+   ```yaml
+   ---
+   date: 2026-03-12
+   authors:
+     - your_author_id
+   categories:
+     - Your Category
+   slug: my-awesome-post
+   ---
+   ```
+4. Write your post in markdown (see [Adding Jac Code Blocks](#adding-jac-code-blocks) for interactive code examples)
+5. Open a pull request
+
+### Adding Yourself as an Author
+
+If you're a new contributor, add yourself to `docs/blog/.authors.yml`:
+
+```yaml
+authors:
+  # ... existing authors ...
+  your_author_id:
+    name: Your Name
+    description: A short bio about yourself
+    avatar: https://avatars.githubusercontent.com/u/YOUR_GITHUB_USER_ID?v=4
+```
+
+To get your GitHub avatar URL, just replace `YOUR_GITHUB_USER_ID` with your numeric GitHub user ID. You can find your ID by visiting `https://api.github.com/users/YOUR_GITHUB_USERNAME` -- look for the `id` field in the response. This will make your profile picture show up nicely alongside your posts.
+
 ## Features
 
 - **Jac Syntax Highlighting**: Beautiful syntax highlighting for Jac code using custom Pygments and Monaco lexers
@@ -251,10 +299,6 @@ Optional dependencies:
 
 [Add your license here]
 
-
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Acknowledgments
 
